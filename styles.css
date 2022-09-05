@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Cursed Timer  ULiL Regular";
+    src: url("/Basketball\ Score\ Board/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+
+/* The container Div */
+.container {
+    margin: 15%;
+    padding: 25px 0 55px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 250px;
+    width: 400px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.para-el {
+    color: #F94F6D;
+    font: Cursed Timer ULiL;
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    width: 75px;
+    padding: 0.5rem;
+    font-size: 30px;
+    border-radius: 5px;
+    /* : Cursed Timer  ULiL Regular; */
+    /* font-weight: 500; */
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.btn {
+    margin: 20px 0 0 0;
+    height: 30px;
+    width: 50px;
+}
