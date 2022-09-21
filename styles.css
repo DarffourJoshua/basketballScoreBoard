@@ -11,7 +11,7 @@ body {
 /* The container Div */
 .container {
     margin: 15%;
-    padding: 25px 0 55px 0;
+    padding: 0 auto;
     display: flex;
     justify-content: space-around;
     background-color: #1B244A;
@@ -28,7 +28,7 @@ body {
     text-align: center;
     height: 60px;
     width: 75px;
-    padding: 0.5rem;
+    padding: auto;
     font-size: 30px;
     border-radius: 5px;
     /* : Cursed Timer  ULiL Regular; */
