@@ -11,22 +11,40 @@
     <div class="container">
 
         <div>
-            <h3>HOME</h3>
+            <h1>HOME</h1>
             <p id="first-para-el" class="para-el">0</p>
-            <button onclick="plusOne()">+1</button>
-            <button onclick="plusTwo()">+2</button>
-            <button onclick="plusThree()">+3</button>
-            <div>
-                <button class="btn" onclick="reset()">Reset</button>
+            <div class="--bth-container">
+                <button onclick="homeNumCount(1)">+1</button>
+                <button onclick="homeNumCount(2)">+2</button>
+                <button onclick="homeNumCount(3)">+3</button>
             </div>
+            <div >
+                <h3>Foul</h3>
+                <p id="foul-home" class="para-green">0</p>
+                <button onclick="homeFoul(1)">+1</button>
+            </div>
+        </div>
+        
+        <div class="--period-container">
+            <div class="--child-div">
+                <h3>Period</h3>
+                <p id="peroid-el" class="para-green"> 1 </p>
+                <button onclick="pOne(1)">+1</button>
+            </div>
+            <button class="btn" onclick="reset(0)">Reset</button>
         </div>
 
         <div>
-            <h3>AWAY</h3>
+            <h1>GUEST</h1>
             <p id="second-para-el" class="para-el">0</p>
-            <button onclick="addOne()">+1</button>
-            <button onclick="addTwo()">+2</button>
-            <button onclick="addThree()">+3</button>
+            <button onclick="guestNumCount(1)">+1</button>
+            <button onclick="guestNumCount(2)">+2</button>
+            <button onclick="guestNumCount(3)">+3</button>
+            <div>
+                <h3>Foul</h3>
+                <p id="foul-guest" class="para-green">0</p>
+                <button onclick="guestFoul(1)">+1</button>
+            </div>
         </div>
 
     </div>
@@ -34,6 +52,6 @@
     
    
 
-    <script src="index.js"></script>
+    <script src="secondIndex.js"></script>
 </body>
 </html>
